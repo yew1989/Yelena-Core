@@ -1,10 +1,10 @@
 Pod::Spec.new do |s|
   s.name             = 'YLCore'
   s.version          = '0.1.0'
-  s.summary          = 'Yelena核心库.'
+  s.summary          = 'Yelena Core Library.'
 
   s.description      = <<-DESC
-Yelena核心库.
+     Yelena Core Library.核心库.基础库
                        DESC
 
   s.homepage         = 'https://github.com/yew1989/Yelena-Core.git'
@@ -14,6 +14,6 @@ Yelena核心库.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'YLCore/Classes/**/*'
+  s.source_files     = 'YLCore/YLCore/Classes/**/*'
 
 end
